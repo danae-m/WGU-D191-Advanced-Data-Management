@@ -17,14 +17,15 @@ This task defines a report as a collection of data that answers a real-world bus
 Plan for and compose the sections of a real-world business report that can be created from the "Labs on Demand Assessment Environment and DVD Database" web link, and demonstrate the functionality of the supporting SQL code by doing the following:
 
 A.  Summarize one real-world written business report that can be created from the DVD Dataset from the “Labs on Demand Assessment Environment and DVD Database” attachment.
-        1.  Identify the specific fields that will be included in the detailed table and the summary table of the report.
-        2.  Describe the types of data fields used for the report.
-        3.  Identify at least two specific tables from the given dataset that will provide the data necessary for the detailed table section and the summary table 
-            section of the report.
-        4.  Identify at least one field in the detailed table section that will require a custom transformation with a user-defined function and explain why it should 
-            be transformed (e.g., you might translate a field with a value of N to No and Y to Yes).
-        5.  Explain the different business uses of the detailed table section and the summary table section of the report.
-        6.  Explain how frequently your report should be refreshed to remain relevant to stakeholders.
+
+    1.  Identify the specific fields that will be included in the detailed table and the summary table of the report.
+    2.  Describe the types of data fields used for the report.
+    3.  Identify at least two specific tables from the given dataset that will provide the data necessary for the detailed table section and the summary table 
+        section of the report.
+    4.  Identify at least one field in the detailed table section that will require a custom transformation with a user-defined function and explain why it should 
+        be transformed (e.g., you might translate a field with a value of N to No and Y to Yes).
+    5.  Explain the different business uses of the detailed table section and the summary table section of the report.
+    6.  Explain how frequently your report should be refreshed to remain relevant to stakeholders.
 
 B.  Provide original code for function(s) in text format that perform the transformation(s) you identified in part A4.
 
@@ -37,6 +38,7 @@ E.  Provide original SQL code in a text format that creates a trigger on the det
 
 F.  Provide an original stored procedure in a text format that can be used to refresh the data in both the detailed table and summary table. The procedure should clear 
     the contents of the detailed table and summary table and perform the raw data extraction from part D.
+    
     1.  Identify a relevant job scheduling tool that can be used to automate the stored procedure.
 
 G.  Provide a Panopto video recording that includes the presenter and a vocalized demonstration of the functionality of the code used for the analysis.
